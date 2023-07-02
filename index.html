@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#409EFF" />
+  <meta name="description" content="Air Conditioner" />
+  <title>云空调 - 掌心小空调</title>
+  <script>
+    var _hmt = _hmt || [];
+    (function () {
+      let host = 'cooler-open.github.io'
+      if (window.location.host !== host) {
+        return
+      }
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?5ebe7457a3453dda545362c7fcb3f9fa";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = (localStorage.getItem('usehooks-ts-dark-mode') === 'true' ? 'dark' : 'light') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })();
+  </script>
+  <script type="module" crossorigin src="/assets/index-e574d0ec.js"></script>
+  <link rel="stylesheet" href="/assets/index-c23d05ba.css">
+<link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
+
+<body>
+  <div id="root"></div>
+  
+</body>
+
+</html>
